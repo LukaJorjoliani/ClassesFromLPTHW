@@ -1,6 +1,6 @@
 class Song(object):
 	def __init__(self,lyrics):
-		self.lyrics=lyrics
+		self.lyrics=lyrics #why do I need __init__ and what attribute is self? why cant I just start with a sing_me_a_song function?
 	def sing_me_a_song(self):
 		for line in self.lyrics:
 			print line
